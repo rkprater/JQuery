@@ -2,26 +2,26 @@ section {
   width: 75%;
   display: inline-block; }
 
-  .main h1, .City h1, .Caution h1, .Stop h1, .Go h1, .Wrong h1 {
+  .main h1, .Joke h1, .Caution h1, .Stop h1, .Go h1, .Wrong h1 {
     text-align: center;
     font-size: 30px;
     padding-bottom: 40px; }
-    .main ul, .City ul, .Caution ul, .Stop ul, .Go ul, .Wrong ul {
+    .main ul, .Joke ul, .Caution ul, .Stop ul, .Go ul, .Wrong ul {
       display: -webkit-flex;
       -webkit-justify-content: space-between;
       -webkit-flex-direction: row;
       -webkit-flex-wrap: wrap;
       width: 90%;
       list-style-type: none; }
-      .main ul li, .City ul li, .Caution ul li, .Stop ul li, .Go ul li, .Wrong ul li {
+      .main ul li, .Joke ul li, .Caution ul li, .Stop ul li, .Go ul li, .Wrong ul li {
         width: 30%;
         height: 300px;
         padding-bottom: 40px; }
-        .main ul li img, .City ul li img, .Caution ul li img, .Stop ul li img, .Go ul li img, .Wrong ul li img {
+        .main ul li img, .Joke ul li img, .Caution ul li img, .Stop ul li img, .Go ul li img, .Wrong ul li img {
           width: 100%;
           height: 300px; }
 
-          .City, .Caution, .Stop, .Go, .Wrong {
+          .Joke, .Caution, .Stop, .Go, .Wrong {
             display: none; }
 
             aside {
