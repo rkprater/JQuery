@@ -1,0 +1,61 @@
+section {
+  width: 75%;
+  display: inline-block; }
+
+  .main h1, .City h1, .Caution h1, .Stop h1, .Go h1, .Wrong h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px; }
+    .main ul, .City ul, .Caution ul, .Stop ul, .Go ul, .Wrong ul {
+      display: -webkit-flex;
+      -webkit-justify-content: space-between;
+      -webkit-flex-direction: row;
+      -webkit-flex-wrap: wrap;
+      width: 90%;
+      list-style-type: none; }
+      .main ul li, .City ul li, .Caution ul li, .Stop ul li, .Go ul li, .Wrong ul li {
+        width: 30%;
+        height: 300px;
+        padding-bottom: 40px; }
+        .main ul li img, .City ul li img, .Caution ul li img, .Stop ul li img, .Go ul li img, .Wrong ul li img {
+          width: 100%;
+          height: 300px; }
+
+          .City, .Caution, .Stop, .Go, .Wrong {
+            display: none; }
+
+            aside {
+              width: 20%;
+              height: 1000px;
+              display: inline-block;
+              background-color: #323333;
+              vertical-align: top;
+              text-align: center; }
+              aside nav {
+                width: 85%;
+                height: 100%; }
+                aside nav ul {
+                  width: 85%;
+                  list-style-type: none;
+                  margin-top: 130px;
+                  padding: none; }
+                  aside nav ul li {
+                    height: 30px;
+                    margin-top: 10px;
+                    padding: 2px;
+                    width: 100%;
+                    background-color: white; }
+                    aside nav ul li a {
+                      font-size: 15px;
+                      display: block;
+                      color: black;
+                      text-decoration: none;
+                      padding: 10px; }
+
+                      .active {
+                        display: block; }
+
+                        .activeNav {
+                          background-color: white; }
+                          .activeNav a {
+                            color: black; }
